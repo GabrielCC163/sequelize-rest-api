@@ -1,6 +1,5 @@
 const connection = require("../database");
 const Tech = require("../models/Tech");
-const User = require("../models/User");
 
 module.exports = {
   async index(req, res) {
